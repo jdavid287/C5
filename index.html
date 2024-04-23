@@ -1,51 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hacker News</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-gray-100 font-sans">
-    <div class="container mx-auto px-4 py-8">
-        <!-- Header -->
-        <header class="flex items-center justify-between mb-6">
-            <h1 class="text-2xl font-bold text-gray-800">Hacker News</h1>
-            <nav>
-                <ul class="flex space-x-4">
-                    <li><a href="#" class="text-blue-500 hover:text-blue-700">new</a></li>
-                    <li><a href="#" class="text-blue-500 hover:text-blue-700">past</a></li>
-                    <li><a href="#" class="text-blue-500 hover:text-blue-700">comments</a></li>
-                    <li><a href="#" class="text-blue-500 hover:text-blue-700">ask</a></li>
-                    <li><a href="#" class="text-blue-500 hover:text-blue-700">show</a></li>
-                    <li><a href="#" class="text-blue-500 hover:text-blue-700">jobs</a></li>
-                    <li><a href="#" class="text-blue-500 hover:text-blue-700">submit</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- News List -->
-        <div class="grid gap-6">
-            <div class="bg-white rounded-lg shadow-md p-6 mb-6">
-                <h2 class="text-xl font-bold mb-2">A Airfoil (ciechanow.ski)</h2>
-                <p class="text-gray-600 text-sm mb-2">1148 points by todsacerdoti 4 hours ago | <a href="#" class="text-blue-500 hover:text-blue-700">hide</a> | 115 comments</p>
-                <h2 class="text-xl font-bold mb-2">Amazon lobbyists to be banned from European parliament (uni-europa.org)</h2>
-                <p class="text-gray-600 text-sm mb-2">42 points by anigbrowl 16 minutes ago | hide | 8 comments | <a href="#" class="text-blue-500 hover:text-blue-700">hide</a> | 115 comments</p>
-
-
-
-
-
-
-
-
-            </div>
-            <!-- Add more news items as needed -->
-        </div>
+<body>
+    <div>
+        <p>Hacker News</p>
+        <nav>
+            <ul>
+                <li><a href="#">new</a></li>
+                <li><a href="#">past</a></li>
+                <li><a href="#">comments</a></li>
+                <li><a href="#">ask</a></li>
+                <li><a href="#">show</a></li>
+                <li><a href="#">jobs</a></li>
+                <li><a href="#">submit</a></li>
+            </ul>
+        </nav>
     </div>
+    <ol>
+        <li>
+            <a href="https://ciechanow.ski">A Airfoil (ciechanow.ski)</a>
+            <p>1148 points by todsacerdoti 4 hours ago | <a href="#">hide</a> | 115 comments</p>
+        </li>
+        <li>
+            <a href="https://uni-europa.org">A Amazon lobbyists to be banned from European parliament (uni-europa.org)</a>
+            <p>42 points by anigbrowl 16 minutes ago | <a href="#">hide</a> | 8 comments</p>
+        </li>
+        <li>
+            <a href="https://github.com/supertux"> SuperTux (github.com/supertux)</a>
+            <p>61 points by floriangosse 1 hour ago | <a href="#">hide</a> | 13 comments</p>
+        </li>
+        <li>
+            <a href="agraef.github.io">Pure Programming Language (agraef.github.io)</a>
+            <p>56 points by tosh 2 hours ago | <a href="#">hide</a> | 4 comments</p>
+        </li>
+        <li>
+            <a href="the-engi-nerd.github.io">Testing the F-35C Tailhook (the-engi-nerd.github.io)</a>
+            <p>239 points by sklargh 5 hours ago | <a href="#">hide</a> | 101 comments</p>
+        </li>
+        <li>
+            <a href="aeon.co">Ant Geopolitics (aeon.co)</a>
+            <p>196 points by romaintailhurat 7 hours ago | <a href="#">hide</a> | 61 comments</p>
+        </li>
+        <li>
+            <a href="(tesorio.com)">Tesorio (YC S15) Is Hiring a Head of Infrastructure (100% Remote) (tesorio.com)</a>
+            <p>21 minutes ago |<a href="#">hide</a>/p>
+        </li>
+        <li>
+            <a href="browserless.io">The /unblock API from Browserless: dodging bot detection as a service (browserless.io)</a>
+            <p>75 points by keepamovin 3 hours ago | <a href="#">hide</a> | 65 comments</p>
+        </li>
+        <li>
+            <a href="emailengine.app">I turned my open-source project into a full-time business (emailengine.app)</a>
+            <p>472 points by andris 11 hours ago | <a href="#">hide</a> | 185 comments</p>
+        </li>
+        <li>
+            <a href="arstechnica.com">SpaceX discloses cause of Starship anomalies as it clears an FAA hurdle (arstechnica.com)</a>
+            <p>164 points by rbanffy 8 hours ago | <a href="#">hide</a> | 188 comments</p>
+        </li>
+        <li>
+            <a href="github.com/ankane">Blazer: Business intelligence made simple (github.com/ankane)</a>
+            <p>124 points by tosh 7 hours ago | <a href="#">hide</a> | 27 comments</p>
+        </li>
+        <li>
+            <a href="bloomberg.com">Apple cancels work on electric car, shifts team to generative AI (bloomberg.com)</a>
+            <p>405 points by coloneltcb 2 hours ago | <a href="#">hide</a> | 416 comments</p>
+        </li>
+        <li>
+            <a href="github.com/sdv-dev">Synthetic data generation for tabular data (github.com/sdv-dev)</a>
+            <p>20 points by skadamat 2 hours ago | <a href="#">hide</a> | 1 comments</p>
+        </li>
+        <li>
+            <a href="github.com/piercefreeman">Show HN: Mountaineer - Webapps in Python and React (github.com/piercefreeman)</a>
+            <p>82 points by icyfox 6 hours ago | <a href="#">hide</a> | 33 comments</p>
+        </li>
+        <li>
+            <a href="github.com/bruin-data">Show HN: I built an open-source data copy tool called ingestr (github.com/bruin-data)</a>
+            <p>78 points by karakanb 6 hours ago | <a href="#">hide</a> | 27 comments</p>
+        </li>
+        <li>
+            <a href="ayjay.org">Dracula's Biggest Mistake (ayjay.org)</a>
+            <p>20 points by chesterfield 2 hours ago | <a href="#">hide</a> | 24 comments</p>
+        </li>
+        <li>
+            <a href="beltmag.com">Consider the Pawpaw (beltmag.com)</a>
+            <p>55 points by PaulHoule 7 hours ago | <a href="#">hide</a> | 48 comments</p>
+        </li>
+        <li>
+            <a href="invertedpassion.com">Why time seems to pass faster as we age (invertedpassion.com)</a>
+            <p>215 points by paraschopra 11 hours ago | <a href="#">hide</a> | 138 comments</p>
+        </li>
+        <li>
+            <a href="batsov.com">The Second Golden Age of Emacs (batsov.com)</a>
+            <p>78 points by ossusermivami 9 hours ago | <a href="#">hide</a> | 39 comments</p>
+        </li>
+        <li>
+            <a href="lawfaremedia.org">Social Media First Amendment Cases (lawfaremedia.org)</a>
+            <p>55 points by Mjadams 7 hours ago | <a href="#">hide</a> | 140 comments</p>
+        </li>
+    </ol>
 </body>
-
 </html>
